@@ -1,0 +1,564 @@
+body{
+    background-color:whitesmoke;
+}
+fieldset legend{
+    color: #099299 ;
+}
+
+
+.title{
+    font-size:25px;
+    font-family:castellar ;
+    color: white ;
+    text-align: center;
+    margin-left:31%;
+    border:none;
+    width:50%;
+     background-image: linear-gradient(to right top, #051937, #002339, #00292d, #002d1a, #232e0a);
+}
+#div_img img{
+    height:80%;
+    float:right;
+    width:100%;
+      box-shadow:3px 3px 20px 10px gainsboro;
+    margin-top:5px;
+}
+#info_name{
+    color: #099299 ;
+    font-size:20px;
+    text-align: right;
+}
+#left{
+    width:60%;
+    box-shadow:3px 3px 20px 10px gainsboro;
+    margin-left:40%;
+}
+#info_stelle{
+    font-size:20px;
+    text-align: right;
+}
+#info_stelle span{
+    font-size:12px;
+    font-family: arial;
+    color:black;
+}
+#info_perso{
+    color: #099299 ;
+    font-size:20px;
+    text-align: right;
+}
+#info_zusatz {
+      text-align: right;
+    font-style:normal;
+    font-family: arial;
+}
+#block_principal{
+    box-shadow:2px 0px 0px 0px grey;
+}
+#info_footer{
+     color:black ;
+    font-size:18px;
+    text-align: right;
+}
+#info_footer #signature{
+    font-style: italic;
+    font-family: segoe script;
+    color: #099299 ;
+}
+fieldset img{
+    border-radius:20%;
+    border:none;
+    padding:10px;
+    box-shadow:3px 3px 20px 10px gainsboro;
+}
+fieldset{
+    border-bottom: 1px solid grey;
+    box-shadow: 0px 0px 0px 0px grey;
+}
+fieldset:hover{
+     box-shadow: 1px 1px 1px 1px grey;
+}
+#mini_img img{
+    width:25%;
+    box-shadow:0px 0px 0px 0px;
+}
+#mini_img{
+    width:99%;
+    box-shadow:1px 1px 1px 0px grey;
+    margin-left:0px;
+    margin-top:80px;
+}
+#body_ .card-title{
+    font-size:15px ;
+    text-align:center ;
+    margin-top:-20px;
+}
+#mini_img1 img{
+     width:35%;
+    box-shadow:0px 0px 0px 0px;
+}
+#mini_img1{
+    height:20%;
+    font-size: 20px ;
+    text-align: center;
+    margin-top:50px;
+    float:left;
+}
+#mini_img1 p{
+    margin-top:40px;
+    box-shadow:1px 1px 1px 1px grey;
+    height:10%;
+}
+#body_ .list-group li{
+    height:1%;
+}
+#title_projekt{
+     font-size:15px ;
+    text-align:center ;
+    margin-top:-20px;
+    width:100%;
+    margin-left:-200px;
+    float:right;
+}
+
+#percentage br{
+    font-size:25px;
+}
+#percentage i{
+    position:absolute;
+    font-size:35px;
+    color:grey;
+    margin-left:-25px;
+}
+#hobby img{
+    width:8%;
+}
+#hobby .col img{
+    width:100%;
+     box-shadow:0px 0px 30px 0px #002333;
+}
+#bloc_skill legend{
+    font-size:15px;
+    text-align:center;
+    border-bottom:1px solid green;
+    color:#ff0066;
+    
+}
+#bloc_skill fieldset{
+    border:none;
+    margin-top:45%;
+     box-shadow:3px 3px 20px 10px gainsboro;
+}
+#hobby .col{
+    color:white;
+    font-size:12px;
+    text-align: center;
+}
+#bloc_name{
+    border:none;
+    height:10%;
+    background-color:#003333;
+    padding:1%;
+    margin-bottom:0.5%;
+    box-shadow:3px 3px 30px 10px gainsboro;
+}
+#sub_bloc_name .col-sm-8{
+    border:none;
+    text-align:right;
+    color:white;
+    padding-top:3%;
+    margin-top:-2.5%;
+}
+#sub_bloc_name .col-sm-4{
+    text-align:left;
+    font-size:35px;
+    color:white;
+    font-family:Goudy Old Style;
+    padding:1.5%;
+     margin-top:-2.0%;
+}
+#bloc_photo{
+    background-color:#669900;
+    margin-top:-3.2%;
+}
+#sub_bloc_photo{
+    height:20%;
+}
+#sub_bloc_photo .col-sm-4{
+    height:100%;
+    z-index:1;
+}
+#sub_bloc_photo .col-sm-3{
+    background-color:#669900;
+    height:0%;
+}
+span img{
+    z-index:3;
+    border:none;
+}
+#sub_bloc_photo .col-sm-5{
+    border:none;
+    text-align:center;
+    font-family:Century Gothic;
+    padding:2.5%;
+    background-color:#77b300;
+    margin-top:-1%;
+    box-shadow:0px 0px 0px 0px #334d00;
+    height:110%;
+   
+    -webkit-clip-path: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+
+}
+#adresse{
+    text-align:left;
+    float:left;
+}
+#sub_bloc_photo img{
+    width:90%;
+    height:180%;
+    text-align:justify;
+    margin-top:-10%;
+    margin-left:5%;
+    z-index: 2;
+    border-radius:10%;
+    filter: drop-shadow(1px 1px 20px gainsboro);
+}
+#bloc_adresse{
+    margin-top:8%;
+}
+#bloc_adresse .row{
+    margin-bottom:9%;
+}
+#bloc_adresse img{
+    width:20%;
+    filter: drop-shadow(8px 8px 10px green);
+    border-radius:50%;
+}
+#bloc_adresse .col{
+    border-bottom:none;
+    padding:3px;
+}
+#bloc_adresse .col:hover{
+    box-shadow:1px 1px 1px 1px grey ;
+}
+#bloc_adresse .col span{
+    margin-top:-8%;
+}
+#bloc_adresse a{
+    color:black;
+}
+#bloc_adresse a:hover{
+    text-decoration: none;
+}
+#bloc_contact .col{
+    margin-top:2%;
+}
+#bloc_contact{
+    margin-top:7px;
+    background-color:#003333;
+    color:white;
+    text-align: right;
+    box-shadow:3px 3px 20px 1px gainsboro;
+    margin-bottom:1%;
+}
+#bloc_education{
+    background-color:whitesmoke;
+   
+}
+#bloc_education #row_img_education .col{
+    border:none;
+    text-align: center;
+}
+#row_img_education img{
+      box-shadow:3px 3px 20px 10px gainsboro;
+    border-radius:60%;
+}
+#bloc_education #row_education .col{
+    background-color:#ff471a;
+    text-align: center;
+    font-size:30px;
+     box-shadow:3px 3px 30px 3px grey;
+    /*clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);*/
+    margin:2%;
+}
+#bloc_center{
+    background-color:whitesmoke;
+    border:none;
+     width:102%;
+}
+#schulweg .card{
+     background-color:#003333;
+    box-shadow:10px 10px 30px 1px grey;
+}
+#schulweg .card-header{
+    color:white;
+    text-align: center;
+     box-shadow:10px 10px 30px 1px #001311;
+}
+#schulweg .card-title{
+    font-size:15px;
+    text-align:center;
+}
+#schulweg .card-footer{
+    color:white;
+    text-align: center;
+    font-size:12px;
+    border-bottom:1px solid white;
+}
+#schulweg .card-text{
+    font-size:15px;
+}
+#schulweg .card{
+    width:110%;
+    max-height:90%;
+    display: block;
+    margin-left:-15px;
+    border:none;
+}
+
+#col_studium ,#col_studium2{
+    margin-top:8%;
+}
+/*---------------------------------------------*/
+
+#schulweg2 .col{
+    border-right:none;
+    box-shadow:3px 3px 20px 10px gainsboro;
+    margin-left:2%;
+    
+}
+#schulweg2 .col .card-title,.card-text{
+    text-align: center;
+    font-size:18px;
+    font-style:normal;
+}
+#schulweg2 label{
+    color:black;
+    width:100%;
+     box-shadow:3px 3px 20px 10px gainsboro;
+    text-align:center;
+}
+#schulweg2 li{
+     background-color:white;
+    color:black;
+    font-size:15px;
+}
+#schulweg2 ul{
+    border:none;
+    
+}
+/*---------------------------------------------*/
+
+#schulweg3 .col{
+    border-right:none;
+    box-shadow:3px 3px 20px 10px gainsboro;
+    margin-left:2%;
+}
+#schulweg3 .col .card-title,.card-text{
+    text-align: center;
+    font-size:18px;
+    font-style:normal;
+}
+#schulweg3 label{
+    color:black;
+    width:100%;
+     box-shadow:3px 3px 20px 10px gainsboro;
+    text-align:center;
+}
+#schulweg3 li{
+     background-color:white;
+    color:black;
+    font-size:15px;
+}
+#schulweg3 ul{
+    border:none;
+}
+
+#row_title_praktikum .col-sm-9{
+    color:black;
+    text-align:center;
+    margin-top:15px;
+    padding-top:5px;
+}
+#type{
+    color:black;
+    text-align: center;
+    padding:25px;
+    font-size:15px;
+    border-radius:100%;
+    box-shadow:3px 3px 20px 0px gainsboro;
+}
+#row_execution{
+    padding:20px;
+}
+.realisation{
+    color:green;
+    font-size:20px;
+    margin-left:30px;
+}
+#row_execution .col{
+    font-size: 35px;
+    
+}
+#row_execution .col img{
+    width:30%;
+    float:left;
+}
+#row_execution #nbre{
+    margin-top:-10px;
+    text-align: center;
+     box-shadow:3px 3px 20px 1px gainsboro;
+    color:red;
+    font-size:30px;
+    margin-left:-50px;
+}
+#row_locate .col{
+    text-align: center;
+}
+#row_locate img{
+    width:20%;
+}
+#name_locate .col{
+    text-align: center;
+    color:black;
+}
+#link{
+    text-align: center;
+    padding:15px;
+}
+#link a{
+    border:none;
+    width:100%;
+    padding:3%;
+    color:black;
+    font-family: cambria;
+}
+#link a:hover{
+    box-shadow:3px 3px 20px 10px gainsboro;
+    text-decoration:none;
+}
+
+#col_left,#col_right, #col_link{
+     box-shadow:3px 3px 20px 10px gainsboro;
+    margin-left:2%;
+}
+#row_separator{
+    margin:2%;
+}
+#col_right{
+      box-shadow:3px 3px 20px 10px gainsboro;
+}
+.info{
+    color:#339933;
+     box-shadow:3px 3px 20px 10px gainsboro;
+    padding:20px;
+}
+
+#title_graph{
+    color:black;
+    padding:20px;
+    text-align:center;
+     box-shadow:3px 3px 20px 10px gainsboro;
+    font-family:cambria;
+    font-size:25px;
+}
+#hobby1 img{
+    width:80%;
+     box-shadow:3px 3px 20px 10px gainsboro;
+    border-radius:60%;
+    filter: drop-shadow(8px 8px 10px grey);
+}
+#hobby1 img:hover{
+     box-shadow:3px 3px 20px 10px gainsboro;
+}
+#interval{
+     box-shadow:3px 3px 20px 10px gainsboro;
+    height:10px;
+    margin-top:50px;
+    border-radius:6%;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(28,103,36,1) 50%, rgba(185,53,0,0.8155462868741247) 100%);
+}
+#hobby1t{
+    text-align: center;
+    color:black;
+    font-size:20px;
+    font-family:cambria;
+}
+#row_language{
+    border:none;
+    float: center;
+}
+#row_language .col-sm{
+    border:none;
+    text-align: center;
+    z-index:3;
+}
+#row_language a img{
+    width:4%;
+    border-radius:100%;
+}
+#row_language a img:hover{
+    width:5%;
+}
+#row_language .custom-control-label{
+    color:white;
+}
+#map_clausthal{
+    
+    -webkit-clip-path: circle(50.7% at 50% 50%);
+    clip-path: circle(66.7% at 50% 50%);
+
+}
+footer{
+    border:none;
+    background: rgba(76, 175, 80, 0.1);
+     box-shadow:3px 3px 20px 10px gainsboro;
+    width:99%;
+    translate:10px 0px;
+    background-color:#003333;
+    margin-top:1%;
+}
+footer a img:hover{
+    box-shadow: 3px 3px 40px 3px #001311;
+}
+.form-group {
+    position: relative;
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control-placeholder {
+    position: absolute;
+    top: 0;
+    padding: 7px 0 0 13px;
+    transition: all 200ms;
+    opacity: 0.5;
+  }
+  
+  .form-control:focus + .form-control-placeholder,
+  .form-control:valid + .form-control-placeholder {
+    font-size: 75%;
+    transform: translate3d(0, -100%, 0);
+    opacity: 1;
+  }
+  #lg_title{
+      color:black;
+      font-size:20px;
+      font-family: cambria;
+  }
+#col_view{
+    text-align: center;
+    color:black;
+    box-shadow: 3px 3px 20px 5px gainsboro;
+    width:60%;
+    translate:70px 20px;
+    border-radius:20%;
+    font-family:segoe script;
+    margin-left:-15px;
+}
+#link_modal:hover{
+    box-shadow: 3px 3px 20px 5px gainsboro;
+    cursor:pointer;
+}

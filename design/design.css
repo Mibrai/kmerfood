@@ -1,0 +1,96 @@
+#container_banner{
+    text-align:center;
+    filter: drop-shadow(3px 3px 10px gainsboro);
+}
+#container_banner img{
+    width:80%;
+    
+    height:90%;
+}
+#col_navbar img{
+    width:8%;
+    border-radius:40%;
+}
+
+#col_navbar button img{
+    width:60%;
+}
+#col_navbar{
+    margin-bottom:20px;
+     box-shadow: 3px 3px 30px 3px gainsboro;
+}
+
+#container_menu{
+    box-shadow: 3px 3px 30px 1px gainsboro;
+    margin-top:-40px;
+    padding:10px;
+    width:80%;
+}
+#myTabContent .row{
+    margin:10px;
+    padding:10px;
+}
+#myTabContent .col img{
+    /*filter: drop-shadow(3px 3px 10px gainsboro);*/
+}
+del{
+    color:red;
+}
+#myTabContent p{
+    font-size:25px;
+    text-align: center;
+    font-family:segoe script;
+}
+#myTabContent .col a{
+    width:100%;
+}
+#myTabContent .col a img{
+    float:right;
+    filter:none;
+    width:15%;
+}
+#myTabContent .col .card-title img{
+    float: right;
+    width:10%;
+}
+
+#myTabContent .col .card-title img:hover{
+    float: right;
+    width:12%;
+    cursor:pointer;
+}
+
+/*-----------------design footer------------------*/
+footer{
+    margin:20px;
+    border:none;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow:3px 3px 30px 3px gainsboro;
+    width:98%;
+    translate:10px 0px;
+}
+footer a img:hover{
+    box-shadow: 3px 3px 40px 3px gainsboro;
+}
+
+/*-------------------design nav menu-------------------*/
+#myTab .nav-item{
+    margin:15px;
+}
+#myTab .nav-item a{
+    color:grey;
+}
+#navbarSupportedContent{
+    width:120%;
+}
+
+#col_btn{
+    text-align: center;
+}
+#row_title_cathegorie .alert{
+    text-align: center;
+}
+
+#nav_footer .container{
+    padding-left:250px;
+}

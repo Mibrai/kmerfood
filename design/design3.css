@@ -1,0 +1,214 @@
+#container_banner{
+    text-align:center;
+    
+    margin-top:50px;
+}
+#container_banner img{
+    width:90%;
+    
+    height:80%;
+}
+#col_navbar img{
+    width:8%;
+    border-radius:40%;
+}
+
+#col_navbar button img{
+    width:60%;
+}
+#col_navbar{
+    margin-bottom:20px;
+     box-shadow: 3px 3px 30px 3px gainsboro;
+}
+
+#container_menu{
+    
+    margin-top:40px;
+    padding:10px;
+    width:80%;
+}
+#myTabContent .row{
+    margin:10px;
+    padding:10px;
+}
+#myTabContent .col img{
+    /*filter: drop-shadow(3px 3px 10px gainsboro);*/
+}
+del{
+    color:red;
+}
+#myTabContent p{
+    font-size:25px;
+    text-align: center;
+    font-family:segoe script;
+}
+#myTabContent .col a{
+    width:100%;
+}
+#myTabContent .col a img{
+    float:right;
+    filter:none;
+    width:15%;
+}
+#myTabContent .col .card-title img{
+    float: right;
+    width:10%;
+}
+
+#myTabContent .col .card-title img:hover{
+    float: right;
+    width:12%;
+    cursor:pointer;
+}
+
+/*-----------------design footer------------------*/
+footer{
+    margin:20px;
+    border:none;
+    background: rgba(255, 255, 255, 0.1);
+    width:98%;
+    translate:10px 0px;
+}
+footer a img:hover{
+    box-shadow: 3px 3px 40px 3px gainsboro;
+}
+
+/*-------------------design nav menu-------------------*/
+#myTab .nav-item{
+    margin:15px;
+}
+#myTab .nav-item a{
+    color:grey;
+}
+#navbarSupportedContent{
+    width:120%;
+}
+
+#col_btn{
+    text-align: center;
+}
+#row_title_cathegorie .alert{
+    text-align: center;
+}
+
+#nav_footer .container{
+    padding-left:250px;
+}
+
+/*-----------------design menu y------------------*/
+#row_y .col-1 a{
+    width:170%;
+    text-align: center;
+    padding:10px;
+    margin-top:10px;
+    z-index: 2;
+   clip-path: polygon(85% 0%, 100% 50%, 85% 100%, 0% 100%, 8% 50%, 0% 0%);
+    border-bottom:1px solid grey;
+}
+#row_y .col-1{
+    position:absolute;
+    margin-left:20px;
+    width:150%;
+    z-index:1;
+    
+}
+
+#row_y #container_menu{
+    margin-right:20px;
+}
+#row_y a img{
+    float:right;
+    width:20%;
+    margin-right:10px;
+}
+#row_y .col-1 a:hover{
+    width:175%;
+}
+
+/*--------design connect-----------------*/
+#col_navbar .btn-light img{
+    width:80%;
+}
+#modal_connect img{
+    width:50%;
+}
+#modalLoginTitle img{
+    width:20%;
+}
+#modal_connect .btn-light{
+   float:right;
+}
+#modal_connect form{
+    margin-left:50px;
+}
+
+#btn_group_info button{
+    margin-right:50px;
+}
+#btn_group_info .btn{
+    width:110%;
+    text-align: right;
+}
+#btn_group_info .btn img{
+    width:20%;
+    float:left;
+}
+
+#btn_group_info .dropdown-item img{
+    float: left;
+    width:20%;
+}
+
+/*------------design tab empty---*/
+#col_empty{
+    text-align: center;
+    font-size:20px;
+    font-family: Goudy Old Style;
+    color:green;
+}
+
+/*----------design modal commande-----------*/
+#row_y_modal .col-md-4 a{
+    text-align: center;
+    padding:10px;
+    margin-top:10px;
+    z-index: 2;
+   clip-path: polygon(85% 0%, 100% 50%, 85% 100%, 0% 100%, 8% 50%, 0% 0%);
+    border-bottom:1px solid grey;
+}
+
+#row_y_modal a img{
+    float:right;
+    width:15%;
+    margin-right:10px;
+}
+#row_y .col-md-4 a:hover{
+    width:101%;
+    background-color:gainsboro;
+}
+#row_y_modal span{
+    text-align: center;
+    margin-left:120px;
+    font-family: Goudy Old Style;
+    font-size:25px;
+    box-shadow: 3px 3px 40px 3px gainsboro;
+}
+#row_y_modal .alert{
+    font-size:12px;
+}
+#row_y_modal button{
+    float:right;
+}
+
+#container_slide .carousel-item img{
+    filter: drop-shadow(3px 3px 10px gainsboro);
+    width:60%;
+}
+#container_slide{
+    box-shadow: 3px 3px 30px 1px gainsboro;
+    width:80%;
+}
+#container_slide img{
+    width:20%;
+    height:700px;
+}
