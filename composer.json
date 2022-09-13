@@ -1,0 +1,9 @@
+{
+    "name": "vendor/dao",
+    "description": "persistance with doctrine",
+    "type": "library",
+    "require": {
+        "doctrine/orm": "^2.8",
+        "symfony/yaml": "^5.2"
+    }
+}
